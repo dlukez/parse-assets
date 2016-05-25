@@ -2,7 +2,7 @@
 
 Parse a list of HTML, CSS and JS assets from a HTML file.
 
-*Supports HTML Imports.* 
+**Supports HTML Imports.**
 
 ## Usage
 
@@ -13,5 +13,6 @@ npm install --save-dev parse-assets
 parse-assets index.html
 
 # usage with base directory specified
-parse-assets src/ index.html # looks for `src/index.html`
+# (looks for `src/index.html`)
+parse-assets src/ index.html
 ```
